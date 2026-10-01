@@ -1,0 +1,32 @@
+{
+  "name": "pi-personal-autoresearch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "verify:proof": "node ../bundled/scripts/prove.mjs autoresearch"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "~0.99.2",
+    "@earendil-works/pi-ai": "~0.99.2",
+    "@earendil-works/pi-tui": "~0.99.2",
+    "typebox": "^1.3.27"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.99.2",
+    "@earendil-works/pi-ai": "0.99.2",
+    "@earendil-works/pi-tui": "0.99.2",
+    "typebox": "1.3.27",
+    "@types/node": "^24.19.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  }
+}
