@@ -1,4 +1,4 @@
-# Personal autoresearch (pi 0.99.2)
+# Personal autoresearch (pi 1.0.0)
 
 A measured-experiment ledger and continuation loop, independently loadable from
 `src/index.ts` and included in the bundle.
